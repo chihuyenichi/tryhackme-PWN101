@@ -35,7 +35,7 @@ got, got.plt can be read, written<br> combining with string format vulnarability
 the expecting function is<br>
 <img width="1106" height="462" alt="image" src="https://github.com/user-attachments/assets/b57d5436-bf0d-4684-bd7a-e6f426c38835" />
 
-the address of this function is 0x000000000040123B
+the address of this function is 0x000000000040123B 
 
 specifier format `%n` can have we write anything at anywhere, we will choose the puts function to rewrite the value at its address 
 
