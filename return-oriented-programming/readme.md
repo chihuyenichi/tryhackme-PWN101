@@ -52,8 +52,8 @@ Description: That useful string "/bin/cat flag.txt" is still present in this bin
 - our purpose is executing `call _system` with parameter `/bin/sh cat flag.txt`
 - to do this, first, we need to make `rdi/edi`'s value to `/bin/sh cat flag.txt` (because in linux, the first parameter which is pass into function is `rdi`)
 - from here, we suppose we are in `pwnme` function, value of `rsp` and `rbp` are used at this time
-- we will find a ROP gadget that can affect to `rdi`, it is sth like `pop rdi; ret`
-  to do it we will use a tool called `ROPgadget Tool`
+- we will find a ROP gadget that can affect to `rdi`, it is sth like `pop rdi; ret`<br>
+  to do it we will use a tool called `ROPgadget Tool`<br>
   > (pwn_env) (base) root@chihuyenich:/mnt/c/daohuyenchi_server/CTF_downloads/tryhackme/PWN101/return-oriented-programming/split_unzip_folder# ROPgadget --binary ./split > gadgets.txt 
 
   and we see it (note this bolded address)
