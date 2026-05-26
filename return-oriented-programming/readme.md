@@ -67,7 +67,7 @@ Description: That useful string "/bin/cat flag.txt" is still present in this bin
 
 - the progess will take place as follows:
   1. fill the buffer (with length 0x20) of our input with the current `rbp`
-  2. we will overwrite the stack like that
+  2. we will overwrite the stack like that<br>
      <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/c46194a1-a4a0-4c9d-8ff4-ea2f8de8546f" />
 
 ### Explanation 
