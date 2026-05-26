@@ -60,10 +60,10 @@ Description: That useful string "/bin/cat flag.txt" is still present in this bin
 
   <img width="879" height="231" alt="image" src="https://github.com/user-attachments/assets/9876b553-bba7-4628-a695-bb4df07560d4" />
 
-- we have some definitions :
-  `pop_rdi_address` is address of start of `pop rdi; ret` that we found above
-  `cat_flag_address` is address of the string `/bin/cat flag.txt` in the binary
-  `sys_call_address` is address of `call _system` 
+- we have some definitions :<br>
+  `pop_rdi_address` is address of start of `pop rdi; ret` that we found above<br>
+  `cat_flag_address` is address of the string `/bin/cat flag.txt` in the binary<br>
+  `sys_call_address` is address of `call _system`<br>
 
 - the progess will take place as follows:
   1. fill the buffer (with length 0x20) of our input with the current `rbp`
