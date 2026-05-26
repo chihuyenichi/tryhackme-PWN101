@@ -37,11 +37,11 @@ Description: That useful string "/bin/cat flag.txt" is still present in this bin
 
   <img width="984" height="256" alt="image" src="https://github.com/user-attachments/assets/17252dff-2d65-496f-a883-263068b9c10e" />
 
-  it's a usefull command that helps us to do something related to its system, so we should save the address of this command 
+  it's a useful command that helps us to do something related to its system, so we should save the address of this command 
 
 - goto strings which are listed in IDA
 
-  <img width="784" height="543" alt="image" src="https://github.com/user-attachments/assets/dbe22f0c-9fc1-44ac-83ae-2bc4baf05c44" />
+  <img width="784" height="543" alt="image" src="https://github.com/user-attachments/assets/dbe22f0c-9fc1-44ac-83ae-2bc4baf05c44" /><br>
   > .data:0000000000601060	00000012	C	/bin/cat flag.txt
 
   if it's the parameter of `call _system`, this challenge will be done
