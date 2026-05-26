@@ -8,7 +8,7 @@ Description: That useful string "/bin/cat flag.txt" is still present in this bin
 
 ## Exploition 
 
-- [first we need to unzip this .zip file and this is it will be] <img width="863" height="101" alt="image" src="https://github.com/user-attachments/assets/7f4df580-9046-4991-be7f-5b4ce78179fd" />
+- first we need to unzip this .zip file and this is it will be <img width="863" height="101" alt="image" src="https://github.com/user-attachments/assets/7f4df580-9046-4991-be7f-5b4ce78179fd" />
 - detarmining the type of `split` :
 > split: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=98755e64e1d0c1bff48fccae1dca9ee9e3c609e2, not stripped
 > 
